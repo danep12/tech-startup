@@ -1,0 +1,47 @@
+.tech-banner-section img,
+.tech-service-section img {
+	width: 100%; 
+}
+.tech-banner-section .wp-block-cover__background{
+	background-image: linear-gradient(130deg, #FFE000 40% , #799F0C 77%);
+    opacity: 0.6 !important;
+}
+.tech-banner-section h1,.tech-banner-section p,
+.tech-banner-section .banner-btn .wp-block-button__link,
+.service-btn .wp-block-button__link,.tech-service-section h2,
+.tech-service-section h3,.tech-service-section p {
+	font-family: 'Poppins', sans-serif;
+}
+.banner-btn .wp-block-button__link,
+.service-btn .wp-block-button__link {
+	padding: 10px 20px;
+	border: none !important;
+	font-weight: 700;
+}
+.banner-btn .wp-block-button__link:hover {
+	background:  #fff !important;
+	color: #000 !important;
+}
+.service-btn .wp-block-button__link:hover {
+	background: #799F0C !important;
+	color: #fff !important;
+}
+.service-btn .wp-block-button__link:hover:after {
+	color: #fff !important;
+}
+.banner-btn .wp-block-button__link:after,
+.service-btn .wp-block-button__link:after {
+	content: "\f105";
+	font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.banner-btn .wp-block-button__link:after {
+	margin-left: 8px;
+}
+.service-btn .wp-block-button__link:after {
+	margin-left: 1px !important;
+}
+.service-box {
+	box-shadow: 0px 7px 5px #eee;
+    border: 1px solid #eee;
+}

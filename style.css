@@ -1,0 +1,320 @@
+/*
+Theme Name: Tech Startup
+Theme URI: https://www.themeshopy.com/themes/free-tech-startup-wordpress-theme/
+Author: ThemeShopy
+Author URI: https://www.themeshopy.com/
+Description: Tech Startup is an amazing theme based on WordPress that is great for startups and agencies that are dealing in the technical business domain. It has an innovative and professional design that is a perfect match for IT and tech startups, corporates, tech-savvies, web development agencies, and tech bloggers.  The simple and adaptable design adjusts itself on different layouts giving a responsive design. As the design is based on the Bootstrap framework, it results in a robust WordPress theme giving a mobile-friendly as well as a user-friendly website that looks beautiful on any screen. The clean layout shows details in a minimalist way without any extra clutter on the screen drawing the entire attention of your target audience towards your main content. For making sure that you get noticed easily online and get more traffic, there are SEO-friendly codes in the core featuring you in the top ranks in SERP. The highly optimized codes also result in fast performance and fast page load time. To further enhance the interactive part of your website, this theme includes Call To Action Buttons (CTA) and stunning CSS animations. With plenty of personalization options and a WordPress customizer, you are free to do the changes in the layout and give it the desired look. Demo: https://www.themeshopy.com/tech-startup-pro/
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.2
+Version: 0.4.4
+license: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: tech-startup
+Template: advance-startup
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, block-patterns, featured-images, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, four-columns, blog, e-commerce
+*/
+
+body{
+    margin: auto !important;
+}
+p{
+    line-height: unset;
+}
+ul{
+    padding: 0 !important;
+}
+a, .wc-proceed-to-checkout a.checkout-button{
+    text-decoration: none !important;
+}
+input.search-field{
+  padding: 10px !important;
+}
+input[type="submit"]{
+  padding: 10px 30px !important;
+}
+.top-header,.talk-btn a,.primary-navigation li a:hover, .primary-navigation li:hover a, .primary-navigation li a:focus, .primary-navigation li:focus a,#slider .carousel-control-next-icon i, #slider .carousel-control-prev-icon i,#slider .inner_carousel .readbtn a,#we_provide .theme_button a, .read-more-btn a,#sidebar .tagcloud a:hover,#footer input[type="submit"],#footer .tagcloud a:hover,.tags p a:hover,.woocommerce span.onsale,#comments a.comment-reply-link,.read-moresec a:hover, #sidebar .widget_block.widget_tag_cloud a:hover, .page-box-single .wp-block-tag-cloud a:hover, #footer .widget_block.widget_tag_cloud a:hover{
+    background: #ffd64e;
+}
+#slider .inner_carousel .readbtn a,#sidebar ul li:hover:before,nav.woocommerce-MyAccount-navigation ul li,#comments input[type="submit"].submit{
+    background: #ffd64e !important;
+}
+.new-text h2 a, .metabox i, .metabox span a:hover, #sidebar .textwidget a,#sidebar ul li:hover, #sidebar ul li:hover a, #sidebar ul li:active, #sidebar ul li:focus,h1, h2, h3, h4, h5, h6,.tags i,.tags p a,.meta-nav,#comments a time, .pagination .current, .page-links .post-page-numbers.current, .pagination a:hover, .page-links a:hover{
+    color: #ffd64e !important;
+}
+.woocommerce-MyAccount-content p a, .woocommerce-MyAccount-navigation li a{
+    text-decoration: none !important;
+}
+.tags p a,.tags p a:hover,.woocommerce-message,#footer input[type="search"],.read-moresec a{
+    border-color: #ffd64e;
+}
+#we_provide .theme_button a:hover, .read-more-btn a:hover,.talk-btn a:hover,#sidebar input[type="submit"]:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #799F0C !important;
+}
+#we_provide .theme_button a:hover, .woocommerce a.button:hover{
+    background: #799F0C !important;
+}
+#slider .carousel-control-next-icon i, #slider .carousel-control-prev-icon i, .logo h1 a,.logo p a,.logo p,.top-header p, .social-icons i,.talk-btn a,.primary-navigation li a:hover, .primary-navigation li:hover a, .primary-navigation li a:focus, .primary-navigation li:focus a,#slider .inner_carousel .readbtn a,#sidebar .tagcloud a:hover,nav.woocommerce-MyAccount-navigation ul li a,input[type="submit"],.sf-arrows .sf-with-ul:after,.read-moresec a, #sidebar .widget_block.widget_tag_cloud a:hover, .page-box-single .wp-block-tag-cloud a:hover, #footer .widget_block.widget_tag_cloud a:hover, #footer .tagcloud a:hover{
+    color: #000 !important;
+}
+.contact-info-box a,.contact-info-box p,.contact-info-box i{
+    color: #707070 !important;
+}
+.contact-info-box a:hover{
+    color: #ffd64e !important;
+}
+.talk-btn a:hover{
+    color: #fff !important;
+}
+.social-icons i:hover{
+    color: #799F0C !important;
+}
+.contact-info-box i {
+    font-size: 35px;
+}
+.talk-btn a,#we_provide .theme_button a, .read-more-btn a,#we_provide .theme_button a:hover, .read-more-btn a:hover,#header-top{
+    border: none;
+}
+.page-template-custom-front-page .main-menu .menu-color {
+    background: linear-gradient( 
+90deg, #fff 94% , #ffd64e 75%);
+    box-shadow: 0 0 20px 0px #9c9c9c;
+    padding: 5px 0;
+}
+#header-top{
+    background: transparent;
+    background-size:cover;
+}
+.border-side {
+    border-right: solid 2px #707070;
+}
+.main-menu{
+    border-top: 1px solid #000;
+}
+.search-box {
+    text-align: center;
+}
+.search-box i {
+    font-size: 22px;
+}
+.primary-navigation a {
+    font-weight: normal;
+    padding: 10px 15px;
+}
+.primary-navigation ul ul li:first-child {
+    border-top: 6px solid #799F0C !important;
+}
+
+.fixed-header {
+    position: static !important;
+    box-shadow: none !important;
+}
+.contact-info-box p{
+    font-size: 16px;
+}
+.contact-info-box a, .location-text{
+    font-size: 14px !important;
+}
+#sidebar .textwidget a, #footer .textwidget a, .entry-content a{
+    text-decoration: underline !important;
+    color: #ffd64e;
+}
+#sidebar .wp-block-search__inside-wrapper button{
+    background-color: #ffd64e !important;
+    border-color: #ffd64e !important;
+    color: #000;
+}
+#maincontent .page-box-single .wp-block-button .wp-block-button__link:hover{
+    color: #fff !important;
+    background: #799F0C !important;
+}
+.wp-block-button .wp-block-button__link{
+    background: #ffd64e;
+    color: #000;
+    border-color: #ffd64e;
+}
+#maincontent .page-box-single .wp-block-button.is-style-outline a{
+    border-color: #ffd64e;
+}
+.our-services .navigation .nav-previous a, .our-services .navigation .nav-next a{
+    background: #ffd64e;
+    color: #000;
+}
+.our-services .navigation .nav-previous a:hover, .our-services .navigation .nav-next a:hover{
+    background: #799F0C;
+    color: #fff;
+}
+.our-services .navigation .nav-previous, .our-services .navigation .nav-next{
+    margin-left: -15px;
+}
+/*--------Home Page--------------*/
+
+.page-template-custom-front-page #header-top{
+    position: static;
+    background: transparent;
+}
+.page-template-custom-front-page #header{
+    display: block;
+}
+.page-template-custom-front-page .main-menu {
+    position: absolute;
+    width: 100%;
+    top: auto;
+    margin-top: -15px;
+}
+#footer li a:Hover{
+    color: #ffd64e;
+}
+.copyright{
+    background-image: linear-gradient(130deg, #FFE000 40% , #799F0C 77%) !important;
+}
+/*--------Slider--------------*/
+#slider h1{
+    color: #ffffff !important;
+}
+#slider .carousel-item,#menu-sidebar{
+    background-image: linear-gradient(130deg, #FFE000 40% , #799F0C 77%);
+}
+#slider .carousel-control-prev, #slider .carousel-control-next {
+    width: 15%;
+}
+#slider .carousel-control-next-icon i, #slider .carousel-control-prev-icon i {
+    color: #000;
+    border-radius: 50%;
+    padding: 16px 20px;
+    box-shadow: 0 0 10px 0px #9c9c9c;
+}
+#slider .inner_carousel .readbtn a{
+    border: none;
+}
+#slider .inner_carousel .readbtn a:hover{
+    background: #fff !important;
+}
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    border-color: #799F0C !important;
+}
+.woocommerce a.added_to_cart{
+    display: inline-block;
+}
+.woocommerce .added_to_cart:hover{
+    border-color: #799F0C;
+    background: #799F0C;
+    color: #fff;
+}
+.woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover{
+    color: #000;
+    background: #799F0C !important;
+}
+p.comment-form-url input{
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+    border: 1px solid #bcbcbc;
+}
+.wp-block-woocommerce-empty-cart-block .wc-block-grid__product-onsale{
+    background: #ffd64e !important;
+    border-color: #ffd64e !important;
+}
+.wc-block-grid__product .wc-block-grid__product-title{
+    color: #ffd64e !important;
+}
+.wp-block-woocommerce-empty-cart-block .wp-block-button a:hover, .wp-block-woocommerce-cart .wc-block-components-totals-coupon a:hover, .wp-block-woocommerce-cart .wc-block-cart__submit-container a:hover, .wp-block-woocommerce-checkout .wc-block-components-totals-coupon a:hover, .wp-block-woocommerce-checkout .wc-block-checkout__actions_row a:hover{
+    background: #799F0C !important;
+    border-color: #799F0C;
+}
+#we_provide .section-text:before{
+    content: "" !important;
+    font-family: 'FontAwesome' !important;
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+    background: #ffd64e !important;
+    display: block;
+    margin: 10px auto;
+}
+#we_provide .section-text{
+    color: #807a7a;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+#we_provide h2:before{
+    display: none;
+}
+/* --------- Bradcrumbs --------- */
+.bradcrumbs a {
+  color: #000;
+  padding: 10px 20px;
+  background: #ffd64e !important;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 25px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-color: unset;
+}
+.bradcrumbs a:hover, .post-categories li a:hover{
+  border-color: unset;
+  color: #fff;
+  background:#799F0C !important;
+}
+.bradcrumbs span{
+  color: #000;
+  padding: 10px 20px;
+  background: #ffd64e !important;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 25px;
+  border-color: unset;
+}
+.related-box h4 a{
+    color: #ffd64e;
+}
+/*--------category--------------*/
+
+.post-categories li a{
+    background: #ffd64e !important;
+    color: #000;
+    border: none;
+    border-radius: 0;
+}
+/*--------media--------------*/
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .border-side {
+        border-right: none;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 768px){
+    .main-btn {
+        text-align: right;
+    }
+    .contact-info-box a, .location-text{
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width: 1000px){
+    .top-header, .header-nav .main-menu{
+        display: block;
+    }
+    #header .nav ul.sub-menu li a, #header .nav ul li a{
+        color: #000 !important;
+    }
+    .side-menu {
+        background-image: linear-gradient(130deg, #FFE000 40% , #799F0C 77%);
+    }
+    .page-template-custom-front-page .main-menu .menu-color {
+        background: linear-gradient( 90deg, #fff 94% , #ffd64e 75%);
+        box-shadow: none;
+    }
+    .page-template-custom-front-page .main-menu {
+        position: static;
+        background: transparent;
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+    }
+}
